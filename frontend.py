@@ -19,7 +19,7 @@ class Student:
         Mobile = StringVar()
 # --------------------------------------FUNCTIONS-------------------------------------------------------------------
         def iExit():
-            iExit = tkinter.messagebox.askyesno("Student Database Management Systems", "Confirm if you want to exit")
+            iExit = tkinter.messagebox.askyesno("Student Database Management Systems", "Confirm if you want to quit")
             if iExit > 0:
                 root.destroy()
                 return
